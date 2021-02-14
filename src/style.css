@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 110px;
+}
+
+#navbar-header {
+    height: 110px;
+    padding: 20px 56px;
+    font-weight: 600;
+}
+
+#navbar-header .brand-logo {
+    line-height: 32px;
+}
+
+#navbar-header #rupp {
+    font-size: 40px;
+}
+
+#navbar-header #code {
+    font-size: 24px;
+    margin-left: 64px;
+}
+
+#navbar-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+#navbar-header ul li a {
+    font-size: 28px;
+}
+
+#navbar-header ul div a, #navbar-header ul div button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+#first-container {
+    height: 85vh;
+    margin: 0;
+}
+
+#first-container #first-first-col img {
+    width: 800px;
+    margin-top: 9%;
+}
+
+#first-container #first-second-col {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#first-container #first-second-col h2 {
+    width: 500px;
+    font-size: 72px;
+    font-weight: 500;
+    margin-top: 168px;
+}
+
+#first-container #first-second-col p {
+    width: 700px;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 88px;
+}
+
+#first-container #first-second-col a {
+    margin-top: 120px;
+}
+
+#saiba-mais-button {
+    width: 296px;
+    height: 80px;
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+#second-container {
+    height: 85vh;
+}
+
+#second-container #second-first-container h2 {
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 106px;
+}
+
+#second-container #second-first-container h2 #words-prazer {
+    font-size: 88px;
+}
+
+#second-container #second-first-container h2 #words-somos {
+    font-size: 64px;
+}
+
+#second-container #second-first-container h2 #words-code {
+    font-size: 112px;
+    margin-left: 184px;
+}
+
+#second-container #second-second-container {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+}
+
+#second-container #second-second-container h2 {
+    width: 600px;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+#second-container #second-second-container p {
+    width: 700px;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+#second-container #second-second-container #brands {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+#second-container #second-second-container #brands img {
+    width: 90px;
+}
+
+#third-container {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#third-container h2 {
+    width: 900px;
+    font-weight: 500;
+}
+
+#third-container img {
+    width: 1300px;
+    margin-top: 96px;
+    
+}
+
+#fourth-container {
+    height: 376px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fourth-container p {
+    width: 800px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 64px;
+}
+
+#fourth-container a {
+    margin-top: 72px;
+}
+
+footer div:first-child {
+    height: 512px;
+}
+
+#footer-first-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-first-col i {
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+#footer-first-col span {
+    font-size: 64px;
+    margin-left: 128px;
+}
+
+#footer-second-col {
+    font-size: 40px;
+    font-weight: 500;
+
+    margin-top: 150px;
+}
+
+#footer-second-col p {
+    margin-bottom: 20px;
+}
+
+#footer-rights-con {
+    height: 136px;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
