@@ -1,224 +1,180 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-    height: 110px;
-}
-
+header,
 #navbar-header {
-    height: 110px;
-    padding: 20px 56px;
-    font-weight: 600;
+  height: 10vh;
 }
 
-#navbar-header .brand-logo {
-    line-height: 32px;
+nav .brand-logo {
+  line-height: 0.8;
+  font-weight: 500;
+  margin: 2rem 3rem;
 }
 
-#navbar-header #rupp {
-    font-size: 40px;
+#word-code {
+  font-size: 24px;
+  margin-left: 3rem;
 }
 
-#navbar-header #code {
-    font-size: 24px;
-    margin-left: 64px;
+nav ul {
+  font-weight: 500;
+  padding: 0.84rem 3rem !important;
 }
 
-#navbar-header ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}   
-
-#navbar-header ul li a {
-    font-size: 28px;
+nav ul > li > a {
+  font-size: 20px;
 }
 
-#navbar-header ul div a, #navbar-header ul div button {
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 12px;
+#first-container,
+#first-first-col,
+#first-second-col,
+#second-container,
+#third-container {
+  width: 100%;
+  height: 85vh;
+  margin: 0;
 }
 
-#first-container {
-    height: 85vh;
-    margin: 0;
-}
-
-#first-container #first-first-col img {
-    width: 800px;
-    margin-top: 9%;
-}
-
-#first-container #first-second-col {
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+#first-container > div {
+  padding-top: 8rem;
 }
 
 #first-container #first-second-col h2 {
-    width: 500px;
-    font-size: 72px;
-    font-weight: 500;
-    margin-top: 168px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 30rem;
+  font-size: 64px;
+  margin: auto;
 }
 
-#first-container #first-second-col p {
-    width: 700px;
-    font-size: 36px;
-    font-weight: 500;
-    margin-top: 88px;
+#first-container #first-second-col h5 {
+  width: 40rem;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 85px auto 0;
 }
 
 #first-container #first-second-col a {
-    margin-top: 120px;
+  font-weight: 500;
+  border-radius: 15px;
+  font-size: 26px;
+  height: 6rem;
+  width: 22rem;
+  margin: 112px auto 0;
+  padding-top: 1.4rem;
 }
 
-#saiba-mais-button {
-    width: 296px;
-    height: 80px;
-    font-size: 28px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
+#first-container #first-second-col a i {
+  font-size: 44px;
 }
 
-#second-container {
-    height: 85vh;
+#second-container #second-first-col h1 {
+  font-weight: 600;
 }
 
-#second-container #second-first-container h2 {
-    font-size: 150px;
-    font-weight: 600;
-    line-height: 106px;
+#second-container #second-first-col h1 span#word-somos {
+  font-size: 44px;
+  line-height: 3.5;
 }
 
-#second-container #second-first-container h2 #words-prazer {
-    font-size: 88px;
+#second-container #second-first-col h1 > i {
+  font-size: 124px;
+  line-height: 0.1;
+  margin-right: 0px;
 }
 
-#second-container #second-first-container h2 #words-somos {
-    font-size: 64px;
+#second-container #second-first-col h1 > i > span#word-code {
+  font-size: 88px;
+  margin-left: 338px;
 }
 
-#second-container #second-first-container h2 #words-code {
-    font-size: 112px;
-    margin-left: 184px;
+#second-container #second-second-col h2,
+#second-container #second-second-col h5 {
+  width: 32rem;
+  font-weight: 500;
 }
 
-#second-container #second-second-container {
-    display: flex;
-    align-items: center;    
-    flex-direction: column;
+#second-container #second-second-col h2 {
+  margin: 160px auto 80px;
 }
 
-#second-container #second-second-container h2 {
-    width: 600px;
-    font-size: 72px;
-    font-weight: 500;
+#second-container #second-second-col h5 {
+  font-size: 1.74rem;
+  margin: 0 auto 24px;
 }
 
-#second-container #second-second-container p {
-    width: 700px;
-    font-size: 36px;
-    font-weight: 500;
-    margin-top: 80px;
-}
-
-#second-container #second-second-container #brands {
-    width: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 32px;
-}
-
-#second-container #second-second-container #brands img {
-    width: 90px;
-}
-
-#third-container {
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#second-container #second-second-col #brands {
+  width: 29rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 #third-container h2 {
-    width: 900px;
-    font-weight: 500;
-}
-
-#third-container img {
-    width: 1300px;
-    margin-top: 96px;
-    
+  width: 70rem;
+  font-weight: 500;
+  margin: 48px auto 96px;
 }
 
 #fourth-container {
-    height: 376px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
+  height: 30vh;
+  padding-top: 8px;
 }
 
-#fourth-container p {
-    width: 800px;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 48px;
-    margin-top: 64px;
+#fourth-container h4 {
+  width: 46rem;
+  font-weight: 500;
+  margin: 48px auto;
 }
 
 #fourth-container a {
-    margin-top: 72px;
+  font-weight: 500;
+  border-radius: 15px;
+  font-size: 26px;
+  height: 6rem;
+  width: 22rem;
+  margin: auto;
+  padding-top: 1.4rem;
 }
 
-footer div:first-child {
-    height: 512px;
+#fourth-container a i {
+  font-size: 44px;
 }
 
-#footer-first-col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer {
+  height: 42vh;
 }
 
-#footer-first-col i {
-    font-size: 88px;
-    font-weight: 600;
-    line-height: 72px;
-}
-
-#footer-first-col span {
-    font-size: 64px;
-    margin-left: 128px;
-}
-
+#footer-first-col,
 #footer-second-col {
-    font-size: 40px;
-    font-weight: 500;
-
-    margin-top: 150px;
+  height: 38vh;
 }
 
-#footer-second-col p {
-    margin-bottom: 20px;
+#footer-first-col h1 {
+  font-weight: 600;
+  margin-top: 11.5vh;
 }
 
-#footer-rights-con {
-    height: 136px;
-    font-size: 32px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#footer-first-col h1 span.white-text {
+  font-size: 52px;
+  margin-left: 180px;
+}
+
+#footer-second-col h4 {
+  font-weight: 500;
+  margin-top: 11.5vh;
+}
+
+#footer-rights {
+  height: 8vh;
+}
+
+#footer-rights h5 {
+  font-weight: 500;
+  margin-top: 3vh;
 }
