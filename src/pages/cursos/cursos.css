@@ -1,0 +1,9 @@
+#first-container,
+#first-first-col,
+#first-second-col,
+#second-container,
+#third-container {
+    width: 100%;
+    height: 45vh;
+    margin: 0;
+}
