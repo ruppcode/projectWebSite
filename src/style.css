@@ -40,8 +40,12 @@ nav ul > li > a {
   margin: 0;
 }
 
-#first-container > div {
+#first-container div {
   padding-top: 8rem;
+}
+
+#first-container #first-first-col {
+  background: url(./assets/this.svg) no-repeat center;
 }
 
 #first-container #first-second-col h2 {
@@ -90,17 +94,17 @@ nav ul > li > a {
 
 #second-container #second-first-col h1 > i > span#word-code {
   font-size: 88px;
-  margin-left: 338px;
+  margin-left: 18vw;
 }
 
 #second-container #second-second-col h2,
 #second-container #second-second-col h5 {
-  width: 32rem;
+  width: 26vw;
   font-weight: 500;
 }
 
 #second-container #second-second-col h2 {
-  margin: 160px auto 80px;
+  margin: 150px auto 74px;
 }
 
 #second-container #second-second-col h5 {
@@ -109,20 +113,25 @@ nav ul > li > a {
 }
 
 #second-container #second-second-col #brands {
-  width: 29rem;
+  width: 26rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
+#third-container {
+  background: url("./assets/people-toasting.svg") no-repeat center bottom;
+  background-size: 960px;
+}
+
 #third-container h2 {
-  width: 70rem;
+  width: 50vw;
   font-weight: 500;
-  margin: 48px auto 96px;
+  margin: 48px auto;
 }
 
 #fourth-container {
-  height: 30vh;
+  height: 32vh;
   padding-top: 8px;
 }
 
