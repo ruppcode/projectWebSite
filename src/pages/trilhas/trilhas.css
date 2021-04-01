@@ -1,0 +1,98 @@
+#first-container {
+  height: 100vh;
+  padding: 88px;
+}
+
+#first-container h1 {
+  font-weight: 600;
+}
+
+#first-container h1 span#word-somos {
+  font-size: 44px;
+  line-height: 3.5;
+}
+
+#first-container h1 > i {
+  font-size: 124px;
+  line-height: 0.1;
+  margin-right: 0px;
+}
+
+#first-container h1 > i > span#word-code {
+  font-size: 88px;
+  margin-left: 18vw;
+}
+
+#first-container h2 {
+  width: 58rem;
+  font-weight: 500;
+  margin: 132px auto;
+}
+
+#trails .container {
+  height: 85vh;
+  padding: 3rem 6rem;
+  margin-bottom: 24rem;
+}
+
+#trails h1 {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+#trails #underline {
+  width: 22rem;
+  height: 6px;
+  margin: 0 auto 14rem;
+  border-radius: 6px;
+}
+
+#trails #info {
+  background: white;
+  border-radius: 40px;
+}
+
+#trails #info ul {
+  width: 30rem;
+  margin-bottom: 4rem;
+}
+
+#trails #info ul li h5,
+#trails #info ul li i {
+  margin: 11px 20px;
+}
+
+#trails #info ul li h5 {
+  font-weight: 500;
+}
+
+#trails #info a {
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+hr {
+  width: 90vw;
+  margin: auto;
+  border: 3px solid #d2d2d2;
+  border-radius: 3px;
+}
+
+#cursos {
+  background: url("../../assets/asset-trail-cursos.svg") no-repeat bottom left;
+}
+
+#workshop {
+  background: url("../../assets/asset-trail-workshop.svg") no-repeat bottom
+    right;
+}
+
+#meetup {
+  background: url("../../assets/asset-trail-meetup.svg") no-repeat bottom left;
+}
+
+#talks {
+  background: url("../../assets/asset-trail-talks.svg") no-repeat bottom right;
+}

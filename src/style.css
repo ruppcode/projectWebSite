@@ -1,35 +1,3 @@
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header,
-#navbar-header {
-  height: 10vh;
-}
-
-nav .brand-logo {
-  line-height: 0.8;
-  font-weight: 500;
-  margin: 2rem 3rem;
-}
-
-#word-code {
-  font-size: 24px;
-  margin-left: 3rem;
-}
-
-nav ul {
-  font-weight: 500;
-  padding: 0.84rem 3rem !important;
-}
-
-nav ul > li > a {
-  font-size: 20px;
-}
-
 #first-container,
 #first-first-col,
 #first-second-col,
@@ -153,37 +121,4 @@ nav ul > li > a {
 
 #fourth-container a i {
   font-size: 44px;
-}
-
-footer {
-  height: 42vh;
-}
-
-#footer-first-col,
-#footer-second-col {
-  height: 38vh;
-}
-
-#footer-first-col h1 {
-  font-weight: 600;
-  margin-top: 11.5vh;
-}
-
-#footer-first-col h1 span.white-text {
-  font-size: 52px;
-  margin-left: 180px;
-}
-
-#footer-second-col h4 {
-  font-weight: 500;
-  margin-top: 11.5vh;
-}
-
-#footer-rights {
-  height: 8vh;
-}
-
-#footer-rights h5 {
-  font-weight: 500;
-  margin-top: 3vh;
 }
