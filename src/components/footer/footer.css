@@ -1,0 +1,32 @@
+footer {
+  height: 42vh;
+}
+
+#footer-first-col,
+#footer-second-col {
+  height: 38vh;
+}
+
+#footer-first-col h1 {
+  font-weight: 600;
+  margin-top: 11.5vh;
+}
+
+#footer-first-col h1 span.white-text {
+  font-size: 52px;
+  margin-left: 180px;
+}
+
+#footer-second-col h4 {
+  font-weight: 500;
+  margin-top: 11.5vh;
+}
+
+#footer-rights {
+  height: 8vh;
+}
+
+#footer-rights h5 {
+  font-weight: 500;
+  margin-top: 3vh;
+}
