@@ -1,35 +1,3 @@
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header,
-#navbar-header {
-  height: 10vh;
-}
-
-nav .brand-logo {
-  line-height: 0.8;
-  font-weight: 500;
-  margin: 2rem 3rem;
-}
-
-#word-code {
-  font-size: 24px;
-  margin-left: 3rem;
-}
-
-nav ul {
-  font-weight: 500;
-  padding: 0.84rem 3rem !important;
-}
-
-nav ul > li > a {
-  font-size: 20px;
-}
-
 #first-container,
 #first-first-col,
 #first-second-col,
@@ -40,8 +8,12 @@ nav ul > li > a {
   margin: 0;
 }
 
-#first-container > div {
+#first-container div {
   padding-top: 8rem;
+}
+
+#first-container #first-first-col {
+  background: url(./assets/this.svg) no-repeat center;
 }
 
 #first-container #first-second-col h2 {
@@ -90,17 +62,17 @@ nav ul > li > a {
 
 #second-container #second-first-col h1 > i > span#word-code {
   font-size: 88px;
-  margin-left: 338px;
+  margin-left: 18vw;
 }
 
 #second-container #second-second-col h2,
 #second-container #second-second-col h5 {
-  width: 32rem;
+  width: 26vw;
   font-weight: 500;
 }
 
 #second-container #second-second-col h2 {
-  margin: 160px auto 80px;
+  margin: 150px auto 74px;
 }
 
 #second-container #second-second-col h5 {
@@ -109,20 +81,25 @@ nav ul > li > a {
 }
 
 #second-container #second-second-col #brands {
-  width: 29rem;
+  width: 26rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
+#third-container {
+  background: url("./assets/people-toasting.svg") no-repeat center bottom;
+  background-size: 960px;
+}
+
 #third-container h2 {
-  width: 70rem;
+  width: 50vw;
   font-weight: 500;
-  margin: 48px auto 96px;
+  margin: 48px auto;
 }
 
 #fourth-container {
-  height: 30vh;
+  height: 32vh;
   padding-top: 8px;
 }
 
@@ -144,37 +121,4 @@ nav ul > li > a {
 
 #fourth-container a i {
   font-size: 44px;
-}
-
-footer {
-  height: 42vh;
-}
-
-#footer-first-col,
-#footer-second-col {
-  height: 38vh;
-}
-
-#footer-first-col h1 {
-  font-weight: 600;
-  margin-top: 11.5vh;
-}
-
-#footer-first-col h1 span.white-text {
-  font-size: 52px;
-  margin-left: 180px;
-}
-
-#footer-second-col h4 {
-  font-weight: 500;
-  margin-top: 11.5vh;
-}
-
-#footer-rights {
-  height: 8vh;
-}
-
-#footer-rights h5 {
-  font-weight: 500;
-  margin-top: 3vh;
 }
